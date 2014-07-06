@@ -8,8 +8,8 @@ var stringifyJSON = function(obj) {
         if (typeof obj == "string") obj = '"' + obj + '"';
         return String(obj);
     } else {
-        var result = [],
-            arr = (Array.isArray(obj));
+        var result = [];
+        var arr = (Array.isArray(obj));
         for (var prop in obj) {
             var value = obj[prop];
             if (typeof value == "string") value = '"' + value + '"';

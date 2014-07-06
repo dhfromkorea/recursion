@@ -5,6 +5,9 @@
 
 // But instead we're going to implement it from scratch:
 
+// pseudo code
+// don't get into details (tackle one problem at a time and start with big problems)
+// just say there'll be hasClass - and it will be declared later?
 
 var getElementsByClassName = function(className) {
 
